@@ -4,7 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class HomePageTest {
-    public static void main(String[] arg){
+
+    @Test
+    public void titleTest(){
         // Go to the homepage https://tstkwidos.tk/
         // Verify title is equal to kwidos
         // turn the log off
@@ -15,6 +17,6 @@ public class HomePageTest {
         String title = driver.getTitle();
         Assert.assertEquals(title, "Kwidos");
         driver.quit();
-        driver.quit();
     }
+
 }
