@@ -15,5 +15,6 @@ public class HomePageTest {
         String title = driver.getTitle();
         Assert.assertEquals(title, "Kwidos");
         driver.quit();
+        driver.quit();
     }
 }
