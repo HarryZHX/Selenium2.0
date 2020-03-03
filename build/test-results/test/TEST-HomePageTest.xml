@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-02T06:34:18" hostname="DESKTOP-FS9558N" time="12.878">
+  <properties/>
+  <testcase name="titleTest" classname="HomePageTest" time="12.878"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 01, 2020 10:34:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
