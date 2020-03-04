@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="967d3038-cb77-4a9e-84dd-1885caf1872e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
     </list>
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="262">
+              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,7 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583207073844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583299825713" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,34 +240,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest_titleTest - 2020.03.01 at 22h 24m 44s.xml">
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 19h 14m 33s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 19h 20m 49s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 19h 26m 52s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 19h 36m 35s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 19h 53m 17s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 20h 10m 46s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 20h 13m 51s.xml">
+      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_titleTest - 2020.03.03 at 20h 39m 28s.xml">
       <configuration name="HomePageTest.titleTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 12m 54s.xml">
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 20h 39m 37s.xml">
       <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 14m 14s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 15m 27s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 17m 04s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 18m 03s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 27m 07s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 33m 52s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 34m 36s.xml">
-      <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest_Homework1 - 2020.03.02 at 19h 41m 25s.xml">
+    <history-entry file="HomePageTest_Homework1 - 2020.03.03 at 20h 40m 01s.xml">
       <configuration name="HomePageTest.Homework1" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -300,11 +297,11 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49899396" visible="true" weight="0.34512022" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32969153" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -314,7 +311,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="9" visible="true" weight="0.31991953" />
+      <window_info anchor="right" id="Terminal" order="9" weight="0.18108653" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="262">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

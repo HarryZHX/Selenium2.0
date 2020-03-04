@@ -1,11 +1,12 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.Random;
 
 public class HomePageTest {
@@ -42,13 +43,13 @@ public class HomePageTest {
         //find the last name filed
         WebElement lastName = ((ChromeDriver) driver).findElementByCssSelector("input[formcontrolname='lastName']");
         // fill the last name filed
-        Random rand = new Random();
-        int lastNameNumber = rand.nextInt(100);
-        lastName.sendKeys(Integer.toString(lastNameNumber));
+//        Random rand = new Random();
+//        int lastNameNumber = rand.nextInt(100);
+        lastName.sendKeys("Junior");
         // find the business name filed
         WebElement businessName = ((ChromeDriver) driver).findElementByCssSelector("input[formcontrolname='businessName']");
         // fill the business name filed
-        businessName.sendKeys("Testpro, LLC");
+        businessName.sendKeys("Testpro");
         // find the phone number filed
         WebElement phoneNumber = ((ChromeDriver) driver).findElementByCssSelector("input[formcontrolname='phone']");
         // fill the phone name filed
@@ -58,9 +59,29 @@ public class HomePageTest {
         // fill the email filed
         //generate the timestamp
         Calendar cal = Calendar.getInstance();
-        SimpleDateFormat timeOnly = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat timeOnly = new SimpleDateFormat("HH-mm-ss");
         email.sendKeys(timeOnly.format(cal.getTime()) + "@gmail.com");
-        //driver.quit();
+        // find the password filed
+        WebElement password = ((ChromeDriver) driver).findElementByCssSelector("input[formcontrolname='password']");
+        // turn off the password display and fill the password filed
+        password.sendKeys("passowrd123");
+        // find the click accept the terms
+        WebElement clickTerms = ((ChromeDriver) driver).findElementByCssSelector(".col-lg-12 .ng-untouched");
+        // click the terms filed
+        clickTerms.click();
+        // find submit button
+        WebElement submitBtn = ((ChromeDriver) driver).findElementByCssSelector("button[type='submit']");
+        // click the submit button
+        submitBtn.click();
+        //Thread.sleep(4000);
+        WebDriverWait wait = new WebDriverWait(driver,15);
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(element));
+        //assert the sign up successfully
+        WebElement result = ((ChromeDriver) driver).findElementByCssSelector(".btn");
+        System.out.println(result.getText());
+        String expectResult = "SIGN IN";
+        Assert.assertEquals(result.getText(), expectResult);
+        driver.quit();
     }
 
 }
