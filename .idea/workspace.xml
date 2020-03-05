@@ -152,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583379368199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583382642226" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -209,7 +209,7 @@
         <item itemvalue="TestNG.HomePageTest.Homework1" />
         <item itemvalue="Application.HomePageTest" />
         <item itemvalue="TestNG.HomePageTest.titleTest" />
-        <item itemvalue="Application.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.Homework1" />
       </list>
     </recent_temporary>
   </component>
