@@ -75,7 +75,7 @@ public class HomePageTest {
         submitBtn.click();
         //Thread.sleep(4000);
         WebDriverWait wait = new WebDriverWait(driver,15);
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(element));
+        //wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(element));
         //assert the sign up successfully
         WebElement result = ((ChromeDriver) driver).findElementByCssSelector(".btn");
         System.out.println(result.getText());
